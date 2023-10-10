@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d8c2d504db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, This is<br><span>Safwan</span> Ibne Masuk<br>from Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/us.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+
+                    </div> 
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><b style="color: #ff004f;">Bachelor of Sciences (B.Sc) in Computer Science & Enginnering (CSE)</b> <br>Ahsanullah University of Science & Technology<br>July 2019 – November 2023<span><br>CGPA: 3.754</span></li>
+                            <li><b style="color: #ff0048;">Higher Secondary School Certificate</b> <br>Milestone College<br>2018<span><br>GPA: 5.00</span></li>
+                            <li><b style="color: #ff0040;">Secondary School Certificate</b> <br>Milestone School<br>2016<span><br>GPA: 5.00</span></li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li>UI/UX<span><br>Designing Web/App interface</span></li>
+                            <li>Web Development<span><br>Web App Development</span></li>
+                            <li>App Development<span><br>Building Android apps</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievements">
+                        <ul>
+                            <li>Under Construction</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="interests">
+        <div class="container">
+            <h1 class="sub-title">Interests</h1>
+            <div class="interests-list">
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Research Areas</h2>
+                    <ul>
+                        <li>Computer Vision</li>
+                        <li>Natural Language Processing</li>
+                    </ul>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design description</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Web design description</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>         
+        </div>
+    </div>
+
+    
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+               <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Life Saver</h3>
+                        <p>App Description</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>ExcursionNest</h3>
+                        <p>Website Description</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Gym Management System</h3>
+                        <p>Software Description</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Path to Jannah</h3>
+                        <p>Website Description</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Surprise pop</h3>
+                        <p>Game Description</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>BumbleBee</h3>
+                        <p>Hardware description</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               </div>   
+               <a href="#" class="btn">See More</a>              
+        </div>
+
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> safwanamasuk4@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +8801625154677</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/SafwanIbneMasuk"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/SafwanMasuk"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/Safwan-ibne-Masuk"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Safwan.</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var smenu = document.getElementById("sidemenu");
+    function openmenu(){
+        smenu.style.right = "0";
+        }
+    function closemenu(){
+        smenu.style.right = "-200px";
+        }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyFwQeM0yORnJ8KHJFMRWI0v6FEctSsowDoiugPZ3H6Ual76YXXvgVzCHLKdnBLvvt/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
